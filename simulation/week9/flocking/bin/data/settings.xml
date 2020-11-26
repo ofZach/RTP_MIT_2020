@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<group>
+	<cohesion_strength>0.335</cohesion_strength>
+	<cohesion_radius>108</cohesion_radius>
+	<alignment_strength>0.67</alignment_strength>
+	<alignment_radius>50</alignment_radius>
+	<seperation_strength>0.51</seperation_strength>
+	<seperation_radius>44</seperation_radius>
+	<damping>0.068365</damping>
+</group>
