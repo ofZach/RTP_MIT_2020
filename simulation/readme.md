@@ -19,3 +19,7 @@ if it's helpful, the code was generally modernized  (on osx) using the following
 - grep -ilr 'ofSetColor(0x000000);' * | xargs -I@ sed -i '' 's/ofSetColor(0x000000);/ofSetColor(0);/g' @
 - added ofBackground(180,180,180); on many examples, since the default background was too dark
 - hand changed flocking example to use ofxGui
+
+todo
+
+- video files don't play (video examples broken) 
