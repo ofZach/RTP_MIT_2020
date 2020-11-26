@@ -18,3 +18,4 @@ if it's helpful, the code was generally modernized  (on osx) using the following
 - change line.rotate(90) to line.rotate(90, ofPoint(0,0,1))
 - grep -ilr 'ofSetColor(0x000000);' * | xargs -I@ sed -i '' 's/ofSetColor(0x000000);/ofSetColor(0);/g' @
 - added ofBackground(180,180,180); on many examples, since the default background was too dark
+- hand changed flocking example to use ofxGui
